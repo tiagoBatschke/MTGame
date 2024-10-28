@@ -3,7 +3,7 @@ import aventura.Aventura;
 import utils.Narrativa;
 import java.util.Scanner;
 
-public class Jogo {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
