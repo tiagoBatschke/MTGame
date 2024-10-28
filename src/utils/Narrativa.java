@@ -36,8 +36,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 1 para Edson
-    public static void capitulo1Edson(Neo edson, Scanner scanner) {
+     public static void capitulo1Edson(Neo edson, Scanner scanner) {
         System.out.println("\nCapítulo 1: O Despertar de Edson\n");
         System.out.println("Edson acorda inquieto, perturbado com as recentes atividades de Irias.");
         System.out.println("Ele descobre um plano secreto de Irias para exterminar os Naturans.");
@@ -54,8 +53,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 1 para Rian
-    public static void capitulo1Rian(Naturan rian, Scanner scanner) {
+     public static void capitulo1Rian(Naturan rian, Scanner scanner) {
         System.out.println("\nCapítulo 1: O Despertar de Rian\n");
         System.out.println("Rian, em Terratomb, reúne informações vitais sobre a segurança de Celestus.");
         
@@ -71,8 +69,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 1 para Vex
-    public static void capitulo1Vex(Neurax vex, Scanner scanner) {
+     public static void capitulo1Vex(Neurax vex, Scanner scanner) {
         System.out.println("\nCapítulo 1: O Despertar de Vex\n");
         System.out.println("Vex, um guarda Neurax, sente um peso de desconfiança quanto às ordens de Irias.");
         
@@ -88,8 +85,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 2 para Edson
-    public static void capitulo2Edson(Neo edson, Scanner scanner) {
+     public static void capitulo2Edson(Neo edson, Scanner scanner) {
         System.out.println("\nCapítulo 2: A Revolta Silenciosa\n");
         System.out.println("Edson descobre que seu amigo Rian está em contato com a resistência. Ele se vê em um dilema.");
         
@@ -105,8 +101,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 2 para Rian
-    public static void capitulo2Rian(Naturan rian, Scanner scanner) {
+     public static void capitulo2Rian(Naturan rian, Scanner scanner) {
         System.out.println("\nCapítulo 2: A Revolta Silenciosa\n");
         System.out.println("Rian começa a se tornar suspeito entre os Neos e precisa agir rápido para evitar a descoberta de sua missão.");
         
@@ -122,8 +117,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 2 para Vex
-    public static void capitulo2Vex(Neurax vex, Scanner scanner) {
+     public static void capitulo2Vex(Neurax vex, Scanner scanner) {
         System.out.println("\nCapítulo 2: A Revolta Silenciosa\n");
         System.out.println("Vex encontra indícios de uma aliança secreta entre Neos e Naturans. Ele deve escolher seu lado.");
         
@@ -171,8 +165,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 3 para Vex
-    public static void capitulo3Vex(Neurax vex, Scanner scanner) {
+     public static void capitulo3Vex(Neurax vex, Scanner scanner) {
         System.out.println("\nCapítulo 3: O Grande Conflito\n");
         System.out.println("Vex encontra Elena, uma cientista que questiona Irias e a segurança em Celestus.");
         
@@ -204,8 +197,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 4 para Rian
-    public static void capitulo4Rian(Naturan rian, Scanner scanner) {
+     public static void capitulo4Rian(Naturan rian, Scanner scanner) {
         System.out.println("\nCapítulo 4: Aliança com a Resistência\n");
         System.out.println("Rian lidera uma missão arriscada, tentando evitar que Irias descubra o esconderijo da resistência.");
         
@@ -221,8 +213,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 4 para Vex
-    public static void capitulo4Vex(Neurax vex, Scanner scanner) {
+     public static void capitulo4Vex(Neurax vex, Scanner scanner) {
         System.out.println("\nCapítulo 4: Aliança com a Resistência\n");
         System.out.println("Vex começa a questionar seu papel como guarda e pondera ajudar a resistência.");
         
@@ -237,8 +228,7 @@ public class Narrativa {
             System.out.println("Vex opta por informar Irias, acreditando que isso manterá sua segurança e posição entre os Neos.");
         }
     }
-    // Capítulo 5 para Edson
-    public static void capitulo5Edson(Neo edson, Scanner scanner) {
+     public static void capitulo5Edson(Neo edson, Scanner scanner) {
         System.out.println("\nCapítulo 5: O Desfecho\n");
         System.out.println("A guerra entre Celestus e Terratomb atinge seu clímax. Edson deve decidir seu destino.");
 
@@ -254,8 +244,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 5 para Rian
-    public static void capitulo5Rian(Naturan rian, Scanner scanner) {
+     public static void capitulo5Rian(Naturan rian, Scanner scanner) {
         System.out.println("\nCapítulo 5: O Desfecho\n");
         System.out.println("Rian decide seu destino no momento final, com a resistência em suas mãos.");
 
@@ -271,8 +260,7 @@ public class Narrativa {
         }
     }
 
-    // Capítulo 5 para Vex
-    public static void capitulo5Vex(Neurax vex, Scanner scanner) {
+     public static void capitulo5Vex(Neurax vex, Scanner scanner) {
         System.out.println("\nCapítulo 5: O Desfecho\n");
         System.out.println("Vex encara o destino de Celestus, dividindo-se entre proteger os Neos ou buscar redenção.");
 
@@ -288,8 +276,7 @@ public class Narrativa {
         }
     }
 
-    // Atualização da função narrativaInterativa
-    public static void narrativaInterativa(Personagem personagem, Scanner scanner) {
+     public static void narrativaInterativa(Personagem personagem, Scanner scanner) {
         if (personagem instanceof Neo) {
             capitulo1Edson((Neo) personagem, scanner);
             capitulo2Edson((Neo) personagem, scanner);
@@ -301,15 +288,13 @@ public class Narrativa {
             capitulo2Rian((Naturan) personagem, scanner);
             capitulo3Rian((Naturan) personagem, scanner);
             capitulo4Rian((Naturan) personagem, scanner);
-            // Chamada para Capítulo 5
-            capitulo5Rian((Naturan) personagem, scanner);
+             capitulo5Rian((Naturan) personagem, scanner);
         } else if (personagem instanceof Neurax) {
             capitulo1Vex((Neurax) personagem, scanner);
             capitulo2Vex((Neurax) personagem, scanner);
             capitulo3Vex((Neurax) personagem, scanner);
             capitulo4Vex((Neurax) personagem, scanner);
-            // Chamada para Capítulo 5
-            capitulo5Vex((Neurax) personagem, scanner);
+             capitulo5Vex((Neurax) personagem, scanner);
         }
 
 } }
