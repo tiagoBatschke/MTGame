@@ -1,6 +1,7 @@
 package personagens;
 
 public class Neo extends Personagem {
+    @SuppressWarnings("unused")
     private boolean modificadoGeneticamente;
 
     public Neo(String nome, int vida, boolean modificadoGeneticamente) {
