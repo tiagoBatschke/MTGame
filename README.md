@@ -1,18 +1,23 @@
-## Getting Started
+Integrantes do Grupo: 
+Matheus Farias Dos Santos  
+Tiago José Batschke De Souza 
+Gustavo Alvez Marcelino 
+Beatriz Bardela Dos Santos 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Link do GIT: https://github.com/tiagoBatschke/MTGame
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Como Executar o Jogo
+Clone o repositório do projeto no GitHub:
+bash
+Copiar código
+git clone https://github.com/tiagoBatschke/MTGame
+Compile os arquivos Java:
+bash
+Copiar código
+javac -d bin src/*.java
+Execute o jogo:
+bash
+Copiar código
+java -cp bin Jogo
+Exemplo de Execução
+Ao iniciar o jogo, o jogador será apresentado a um prólogo inicial e terá a opção de selecionar um personagem. Em seguida, a aventura começa, e o jogador deve tomar decisões e interagir com a narrativa, completando a aventura conforme o desenrolar dos eventos.
