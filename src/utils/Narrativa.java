@@ -293,21 +293,23 @@ public class Narrativa {
         if (personagem instanceof Neo) {
             capitulo1Edson((Neo) personagem, scanner);
             capitulo2Edson((Neo) personagem, scanner);
-            // Chamada para Capítulo 5
+            capitulo3Edson((Neo) personagem, scanner);
+            capitulo4Edson((Neo) personagem, scanner);
             capitulo5Edson((Neo) personagem, scanner);
         } else if (personagem instanceof Naturan) {
             capitulo1Rian((Naturan) personagem, scanner);
             capitulo2Rian((Naturan) personagem, scanner);
+            capitulo3Rian((Naturan) personagem, scanner);
+            capitulo4Rian((Naturan) personagem, scanner);
             // Chamada para Capítulo 5
             capitulo5Rian((Naturan) personagem, scanner);
         } else if (personagem instanceof Neurax) {
             capitulo1Vex((Neurax) personagem, scanner);
             capitulo2Vex((Neurax) personagem, scanner);
+            capitulo3Vex((Neurax) personagem, scanner);
+            capitulo4Vex((Neurax) personagem, scanner);
             // Chamada para Capítulo 5
             capitulo5Vex((Neurax) personagem, scanner);
         }
 
-       
-    
-    }
-}
+} }
