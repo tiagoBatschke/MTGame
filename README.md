@@ -1,8 +1,8 @@
 MTGame
 Integrantes do Grupo
+
 Matheus Farias Dos Santos
 Tiago José Batschke De Souza
-Gustavo Alvez Marcelino
 Beatriz Bardela Dos Santos
 
 
